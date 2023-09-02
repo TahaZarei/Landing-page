@@ -1,0 +1,46 @@
+@import url("@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');");
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    min-height: 100vh;
+    background-image: url("jakub-dziubak-XtUd5SiX464-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width:85%;
+    margin:auto;
+}
+nav{
+    height: 80px;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 35px;
+    font-size: inline;
+    color:#8d4900;
+}
+nav hl{
+    float: right;
+    line-height: 80px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding:35px 40px;
+}
+nav ul li a{
+    color:#000000;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.article{
+    width: 50%;
+    transform: translateY(25vh);
+}
