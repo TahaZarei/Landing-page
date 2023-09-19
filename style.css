@@ -18,12 +18,13 @@ section{
 nav{
     height: 80px;
 }
-nav h1{
+nav h1 a{
+    color: #8d4900;
+    text-decoration: none;
     float: left;
     line-height: 80px;
     font-size: 35px;
     font-size: inline;
-    color:#8d4900;
 }
 nav hl{
     float: right;
@@ -43,4 +44,15 @@ nav ul li a{
 .article{
     width: 50%;
     transform: translateY(25vh);
+}
+li a.active {
+    background-color: rgba(0, 0, 0, 0.1);
+    color: #8d4900;
+}
+li a:hover:not(.active) {
+    color: #8d4900;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+li a {
+    padding: 7px 10px;
 }
