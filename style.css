@@ -56,3 +56,27 @@ li a:hover:not(.active) {
 li a {
     padding: 7px 10px;
 }
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #8d4900;
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 5px 5px 5px;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 100%;
+}
+div {
+    position: relative;
+}
+form {
+    position: absolute;
+    top: 28px;
+    right: 50px;
+}
